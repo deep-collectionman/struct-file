@@ -8,6 +8,8 @@ FILE_OBJECT (_FILE_ACCESS, _FILE, _FILENAME, _SIZE)
 - ```const char* _filename```
 - ```long int _size```
 
+-------------------------------------------------------------------------------------------------------------------------------
+
 - ```FILE_OBJECT* open_write_file(const char* filename);```
 - ```FILE_OBJECT* open_readonly_file(const char* filename);```
 - ```FILE_OBJECT* open_file(const char* filename, const char* access);```
