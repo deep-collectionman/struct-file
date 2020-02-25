@@ -15,10 +15,10 @@ FILE_OBJECT (_FILE_ACCESS, _FILE, _FILENAME, _SIZE)
 - ```FILE_OBJECT* open_file(const char* filename, const char* access);```
 - ```BOOL delete(FILE_OBJECT* file);```
 
-- ```void write_int(int content, FILE_OBJECT* file);```
-- ```void write_string(const char* content, FILE_OBJECT* file);```
-- ```int read_int(FILE_OBJECT* file);```
-- ```const char* read_string(FILE_OBJECT* file);```
+- ```void write_int_to(FILE_OBJECT* file, int content);```
+- ```void write_string_to(FILE_OBJECT* file, const char* content);```
+- ```int read_int_from(FILE_OBJECT* file);```
+- ```const char* read_string_from(FILE_OBJECT* file);```
 
 - ```void change_access(FILE_OBJECT* file);```
 
