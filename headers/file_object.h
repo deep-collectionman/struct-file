@@ -24,10 +24,10 @@ extern FILE_OBJECT* open_readonly_file(const char* filename);
 extern BOOL delete(FILE_OBJECT* file);
 
 // FILE_OBJECT interface
-extern void write_int(int content, FILE_OBJECT* file);
-extern void write_string(const char* content, FILE_OBJECT* file);
-extern int read_int(FILE_OBJECT* file);
-extern const char* read_string(FILE_OBJECT* file);
+extern void write_int_to(FILE_OBJECT* file, int content);
+extern void write_string_to(FILE_OBJECT* file, const char* content);
+extern int read_int_from(FILE_OBJECT* file);
+extern const char* read_string_from(FILE_OBJECT* file);
 
 extern void change_access(FILE_OBJECT* file);
 
